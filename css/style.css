@@ -1,0 +1,109 @@
+body,
+h1,
+h2,
+h4,
+h3,
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #717171;
+}
+.logo {
+    width: 100px;
+    margin-top: 20px;
+}
+section {
+    margin: 20px 0 20px 0;
+}
+.ion-heart {
+    color: #ff3333;
+}
+.copy {
+    font-weight: 400;
+}
+.projects:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hero {
+    background: radial-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.48)), url("../img/header.JPG");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quote {
+    padding: 200px 0 200px 0;
+}
+.quote h1,
+.quote h3 {
+    color: #fff;
+}
+.quote h1 {
+    font-weight: 400;
+}
+/*Media queries*/
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        width: 50px;
+    }
+    .copy {
+        font-size: 15px;
+    }
+    .name {
+        text-align: center;
+    }
+    h1,
+    h3,
+    h2 {
+        font-weight: 400;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .proj {
+        font-size: 30px;
+        margin: 5px 0 20px 0;
+    }
+    section {
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 501px) {
+    .logo {
+        width: 50px;
+    }
+    .copy {
+        font-size: 25px;
+    }
+    .name {
+        font-size: 60px;
+        text-align: center;
+    }
+    h1,
+    h3,
+    h2 {
+        font-weight: 400;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 40px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .proj {
+        font-size: 30px;
+        margin: 5px 0 20px 0;
+    }
+    section {
+        margin-top: 5px;
+    }
+}
