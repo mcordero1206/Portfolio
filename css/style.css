@@ -108,3 +108,9 @@ section {
         margin-top: 5px;
     }
 }
+
+@media screen and (min-width: 2500px) {
+    .hero {
+        background-attachment: unset;
+    }
+}
